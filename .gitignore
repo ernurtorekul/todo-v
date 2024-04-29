@@ -22,3 +22,115 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+.env
+config/config.js
+
+
+
+../../.DS_Store
+        ../../.cache/
+        ../../.cargo/
+        ../../.config/
+        ../../.dartServer/
+        ../../.emulator_console_auth_token
+        ../../.flat-colors.itermcolors
+        ../../.flutter
+        ../../.flutter-devtools/
+        ../../.gitconfig
+        ../../.gradle/
+        ../../.idlerc/
+        ../../.ipfs/
+        ../../.lesshst
+        ../../.local/
+        ../../.mysql_history
+        ../../.npm/
+        ../../.nvm/
+        ../../.oh-my-zsh/
+        ../../.p10k.zsh
+        ../../.profile
+        ../../.psql_history
+        ../../.pub-cache/
+        ../../.python_history
+        ../../.rustup/
+        ../../.ssh/
+        ../../.swiftpm/
+        ../../.viminfo
+        ../../.vscode/
+        ../../.vuerc
+        ../../.wget-hsts
+        "../../.zcompdump-Ernur\342\200\231s MacBook Air-5.9"
+        ../../.zprofile
+        ../../.zprofile.macports-saved_2023-05-11_at_20:12:43
+        ../../.zprofile.pysave
+        ../../.zsh_history
+        ../../.zsh_sessions/
+        ../../.zshenv
+        ../../.zshrc
+        ../../.zshrc export PATH=:opt:homebrew:bin:$PATH
+        ../../.zshrc.pre-oh-my-zsh
+        ../../.zshrc_profile.swp
+        ../../.zsrhc.rtf
+        ../../Applications/
+        ../../Desktop/
+        ../../Developer/
+        ../../Documents/
+        ../../Downloads/
+        ../../Library/
+        ../../Movies/
+        ../../Music/
+        ../../Pictures/
+        ../../Public/
+        ../../Smavy-Ecomerse/
+        ../../VirtualBox VMs/
+        ../../abdulla/
+        ../../apps_folder/
+        ../../campus_nav/
+        ../../ernurtorekul/.DS_Store
+        ../../ernurtorekul/JavaScript/
+        ../../ernurtorekul/README.md
+        ../../ernurtorekul/logo/
+        ../../f-projects/
+        ../../gitflow_diagram/
+        ../../hackathon/
+        ../../iCloud Drive (Archive)/
+        ../../projects/.DS_Store
+        ../../projects/bank_sys/
+        ../../projects/bauka/
+        ../../projects/beibo/
+        ../../projects/djangopro/
+        ../../projects/dream team/
+        ../../projects/e commerce (react) copy/
+        ../../projects/e commerce (react)/
+        ../../projects/fin_assistant/
+        ../../projects/first_html/
+        ../../projects/fitness app drf back/
+        ../../projects/home-work3/
+        ../../projects/ireill/
+        ../../projects/kahoot na minimalkah/
+        ../../projects/leetcode/
+        ../../projects/left and right side/
+        ../../projects/login_reg/
+        ../../projects/php project/
+        ../../projects/portfolio/
+        ../../projects/posts/
+        ../../projects/practice with almas/
+        ../../projects/profile_project/
+        ../../projects/proj3/
+        ../../projects/python proj2/
+        ../../projects/python project 1/
+        ../../projects/python winter internship/
+        ../../projects/qr_scanner/
+        ../../projects/quizz -js/
+        ../../projects/react first project/
+        ../../projects/second_html/
+        ../../projects/smavy homeworks/
+        ../../projects/smavy-youtube/
+        ../../projects/students_regis/
+        ../../projects/third_html/
+        ../../projects/two_words/
+        ../../projects/wolt/
+        ../../redux-lesson/
+        ../../smavy/
+        ../.vscode/
