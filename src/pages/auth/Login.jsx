@@ -1,10 +1,9 @@
 import React from "react";
+import Form from '../../components/Form'
 
 function Login() {
   return (
-    <div>
-      <p className="text-8xl">Login</p>
-    </div>
+    <Form></Form>
   );
 }
 export default Login;

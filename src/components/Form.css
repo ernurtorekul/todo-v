@@ -1,0 +1,10 @@
+:root{
+    --blue: rgb(110, 166, 255);
+}
+
+.termsofservice{
+    color: var(--blue);
+}
+
+
+  
