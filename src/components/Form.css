@@ -6,5 +6,8 @@
     color: var(--blue);
 }
 
+/* sidebar */
+.sidebar-transition{
+    transition: 0.3s ease-in;
+}
 
-  
