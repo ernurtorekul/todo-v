@@ -1,6 +1,7 @@
 import React from "react";
 import Form from "../../components/Form";
 import logo from "../../img/logo.jpg";
+import {Link} from "react-router-dom";
 
 function Register() {
   return (
@@ -27,9 +28,9 @@ function Register() {
             </p>
             <p className="mt-4 flex justify-center gap-1">
               Already signed up?
-              <a href="/" className="text-blue-600 hover:underline">
+              <Link to="/" className="text-blue-600 hover:underline">
                 Sign in
-              </a>
+              </Link>
             </p>
           </div>
         </div>

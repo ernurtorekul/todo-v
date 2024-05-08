@@ -1,4 +1,3 @@
-import { useState } from "react";
 import RouterApp from "./router/Router";
 
 function App() {
