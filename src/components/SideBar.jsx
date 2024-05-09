@@ -2,15 +2,14 @@ import React, { useState } from "react";
 import home from "../img/icons/home.svg";
 import menu from "../img/icons/menu.png";
 import "../components/Form.css";
-import "../router/Router"
-import {Link} from "react-router-dom"
+import "../router/Router";
+import { Link } from "react-router-dom";
 
 // function ShrinkButton {
 //     const shrinkButton = document.getElementById
 // }
 
 function SideBar() {
-
   const [isSmallSidebar, setSmallSidebar] = useState(false);
   const clickSidebar = () => {
     setSmallSidebar(!isSmallSidebar);
@@ -62,7 +61,8 @@ function SideBar() {
         > */}
         <div
           className={`sidebar_list list-none w-full bg-gray-300 text-sm md:text-xl flex-col flex ${
-            isSmallSidebar ? "items-center" : ""}
+            isSmallSidebar ? "items-center" : ""
+          }
           } ${selectedSection === "plans" ? "bg-gray-700" : ""}`}
         >
           <Link
@@ -81,9 +81,10 @@ function SideBar() {
         <div
           className={`sidebar_list list-none w-full bg-gray-300 text-sm md:text-xl flex-col flex ${
             isSmallSidebar ? "items-center" : ""
-          } ${selectedSection === "done" ? "bg-gray-700" : ""}`}
+          } ${location.pathname === "/home/section2" ? "bg-gray-700" : ""}`}
         >
-          <button
+          <Link
+            to="/home/section2"
             className="flex h-12 items-center mx-8 "
             onClick={() => handleClick("done")}
           >
@@ -93,14 +94,15 @@ function SideBar() {
               className={`mr-2 md:w-6 ${isSmallSidebar ? "mr-0" : ""}`}
             />
             <span className={`${isSmallSidebar ? "hidden" : ""}`}>Done</span>
-          </button>
+          </Link>
         </div>
         <div
           className={`sidebar_list list-none w-full bg-gray-300 text-sm md:text-xl flex-col flex ${
             isSmallSidebar ? "items-center" : ""
-          } ${selectedSection === "other" ? "bg-gray-700" : ""}`}
+          } ${location.pathname === "/home/section3" ? "bg-gray-700" : ""}`}
         >
-          <button
+          <Link
+            to="/home/section3"
             className="flex h-12 items-center mx-8 "
             onClick={() => handleClick("other")}
           >
@@ -110,7 +112,7 @@ function SideBar() {
               className={`mr-2 md:w-6 ${isSmallSidebar ? "mr-0" : ""}`}
             />
             <span className={`${isSmallSidebar ? "hidden" : ""}`}>Other</span>
-          </button>
+          </Link>
         </div>
         <div className="sidebar_list mt-auto">
           <button className=" flex bg-gray-300 w-full p-3 justify-center">
